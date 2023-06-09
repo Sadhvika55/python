@@ -1,0 +1,12 @@
+f1=open("file3.txt","r")
+x=f1.read()
+f2=open("file4.txt","r")
+y=f2.read()
+f3=open("file_3_4.txt","w")
+z=f3.write(x)
+z=f3.write(y)
+f3.close()
+f3=open("file_3_4.txt","r")
+a=f3.read()
+print(f3.read())
+
